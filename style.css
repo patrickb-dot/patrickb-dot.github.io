@@ -1,0 +1,225 @@
+body{
+    margin: 0px;
+    font-size: 1.5vw;
+}
+#logo{
+    font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 8px;
+  width: 30%;
+  border-radius: 5%;
+    text-shadow:
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+}
+
+ul{
+    margin:0px;
+}
+
+body>header{
+    background-color: #F0E5DE;
+    color: white;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header>nav>ul{
+    display: flex;
+}
+
+header>nav>ul>li{
+    padding: 15px;
+    margin: 20px;
+}
+
+body>header>nav>ul{
+    list-style: none;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #d02921;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5%;
+    text-align: center;
+}
+
+main{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scores-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.score-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team{
+    flex: 1;
+    text-align: center;
+}
+
+.team-left{
+    text-align: left;
+}
+
+.team-right{
+    text-align: right;
+}
+
+.team-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.score{
+    flex: 0.5;
+    text-align: center;
+    background-color: #ABD0CE;
+    border-radius: 5%;
+}
+
+.team-score{
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+}
+
+.time{
+    flex: 0.5;
+    text-align: center;
+}
+
+.team-time{
+    font-size: 24px;
+}
+
+.news-container{
+    width: 70%;
+    max-width: 1200px;
+}
+.news-item{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fpl-tips-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto; /* Space between sections */
+}
+
+.fpl-tips-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fpl-tips {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fpl-tip-item {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px; /* Adds space between items */
+    text-align: center;
+}
+
+.fpl-tip-item:first-child {
+    margin-left: 0;
+}
+
+.fpl-tip-item:last-child {
+    margin-right: 0;
+}
+
+.fpl-tip-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.fpl-tip-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+form{
+    text-align: center;
+}
+
+body > footer {
+    background-color:#7C7877;
+    text-align: center;
+    align-items: center;
+}
+
+footer>h2{
+    color: white;
+    margin-top: 0px;
+}
+
+#footer-ul{
+    display: inline-flex;
+    list-style: none;
+    text-align: left;
+}
+
+#footer-ul>div>li{
+    margin-left: 30px;
+}
+
+#footer-ul>div>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+body>footer{
+    padding-bottom: 20px;
+}
